@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,6 +23,8 @@
             extend: {
                 colors: {
                 clifford: '#da373d',
+                'green-primary': '#ABEF5F',
+                
                     }   
                 }
             }
@@ -33,14 +35,57 @@
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/6ac8fc23da.js" crossorigin="anonymous"></script>
 </head>
-<body class="manrope">
-    <header>
-        <!-- navbar started -->
-        <nav>
-
+<body class="manrope  bg-white">
+    <header class="bg-gradient-to-b from-[#f8f8f8] to-[#f2f2f2] md:container mx-auto p-5">
+        <nav class="">
+            <div class="navbar justify-between">
+                <div class="">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      <li><a>Home</a></li>
+                      <li><a>Services</a></li>
+                      <li><a>Portfolio</a></li>
+                      <li><a>Blogs</a></li>
+                      <li><a>Contact us</a></li>
+                    </ul>
+                  </div>
+                  <div class="flex justify-center items-center rounded-full bg-green-primary text-black w-8 h-8"><i class="fa-solid fa-arrow-right text-xl -rotate-45"></i> </div> 
+                  <a class="btn btn-ghost text-black font-extrabold text-xl">Rinterio</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li class="text-black font-semibold"><a>Home</a></li>
+                    <li class="text-[#737373]"><a>Services</a></li>
+                    <li class="text-[#737373]"><a>Portfolio</a></li>
+                    <li class="text-[#737373]"class="text-[#737373]"><a>Blogs</a></li>
+                    <li class="text-[#737373]"><a>Contact us</a></li>
+                  </ul>
+                </div>
+                <div class="rounded-xl border-collapse space-x-3">
+                    <i class="fa-solid fa-magnifying-glass text-[#737373] md:mr-3"></i>
+                    <i class="fa-solid fa-cart-shopping text-xl fill-none text-[#737373] md:mr-2"></i>
+                  <a class="btn bg-green-primary text-black font-semibold rounded-3xl">Book Consult <i class="fa-solid fa-arrow-right  -rotate-45 rounded-full bg-black text-white w-5 h-5 flex justify-center items-center"></i> </a>
+                </div>
+              </div>
         </nav>
     </header>
-    <main>
+    <main class="md:container">
 
     </main>
     <footer>
