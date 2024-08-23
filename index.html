@@ -36,8 +36,9 @@
     <script src="https://kit.fontawesome.com/6ac8fc23da.js" crossorigin="anonymous"></script>
 </head>
 <body class="manrope  bg-white">
-    <header class="bg-gradient-to-b from-[#f8f8f8] to-[#f2f2f2] md:container mx-auto p-5">
-        <nav class="">
+    <header class="bg-gradient-to-b from-[#f8f8f8] to-[#f2f2f2] md:container md:mx-auto px-10">
+        <!-- navbar starts here -->
+        <nav class="mx-auto">
             <div class="navbar justify-between">
                 <div class="">
                   <div class="dropdown">
@@ -55,9 +56,9 @@
                           d="M4 6h16M4 12h8m-8 6h16" />
                       </svg>
                     </div>
-                    <ul
+                    <ul     
                       tabindex="0"
-                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      class="menu menu-sm dropdown-content bg-transparent rounded-box z-[1] mt-3 w-52 p-2 shadow">
                       <li><a>Home</a></li>
                       <li><a>Services</a></li>
                       <li><a>Portfolio</a></li>
@@ -77,13 +78,28 @@
                     <li class="text-[#737373]"><a>Contact us</a></li>
                   </ul>
                 </div>
-                <div class="rounded-xl border-collapse space-x-3">
-                    <i class="fa-solid fa-magnifying-glass text-[#737373] md:mr-3"></i>
-                    <i class="fa-solid fa-cart-shopping text-xl fill-none text-[#737373] md:mr-2"></i>
-                  <a class="btn bg-green-primary text-black font-semibold rounded-3xl">Book Consult <i class="fa-solid fa-arrow-right  -rotate-45 rounded-full bg-black text-white w-5 h-5 flex justify-center items-center"></i> </a>
-                </div>
+                <div class="rounded-xl border-collapse space-x-4">
+                    <div class="rounded-full bg-white text-center w-8 h-8 p-1"><i class="fa-solid fa-magnifying-glass text-[#737373]"></i></div>
+                    <div class="rounded-full bg-white text-center w-8 h-8 pt-1"><i class="fa-solid fa-cart-shopping  fill-none text-[#737373]"></i></div>
+                  <a class="btn bg-green-primary text-black font-bold rounded-3xl">Book Consult <i class="fa-solid fa-arrow-right  -rotate-45 rounded-full bg-black text-white w-5 h-5 flex justify-center items-center"></i> </a>
+                </div> 
               </div>
         </nav>
+        <!-- navbar ends here -->
+        <!-- hero section starts here -->
+        <section class="w-10/12 mx-auto">
+            <!-- for image -->
+            <div class="w-[260px] md:w-[424px] lg:w-[570px] mx-auto mb-6 pb-6">
+                <img src="assets/banner.png" alt="" class="w-full">
+            </div> 
+            <!-- for text -->
+            <div class="mx-auto text-center space-y-4 mb-12">
+                <h1 class="font-extrabold text-[22px] md:tex-[36px] lg:text-[62px] leading-snug text-black">A barn house of this design has a striking appearance</h1>
+                <p class="text-[#494949] font-medium text-[14px] lg:text-[16px] leading-6">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+                <a class="btn bg-green-primary text-black font-bold text-xl rounded-3xl">View Details <i class="fa-solid fa-arrow-right  -rotate-45 rounded-full bg-[#ABEF5F] text-black w-5 h-5 flex justify-center items-center"></i> </a>
+            </div>
+        </section>
+        <!-- hero section ends here -->
     </header>
     <main class="md:container">
 
