@@ -36,10 +36,10 @@
     <script src="https://kit.fontawesome.com/6ac8fc23da.js" crossorigin="anonymous"></script>
 </head>
 <body class="manrope ">
-    <header class="w-10/12 mx-auto bg-gradient-to-b from-[#f8f8f8] to-[#f2f2f2] md:container  md:px-10">
+    <header class="w-10/12 mx-auto bg-gradient-to-b from-[#f8f8f8] to-[#f2f2f2] ">
         <!-- navbar starts here -->
-        <nav class="mx-auto">
-            <div class="navbar justify-between">
+        <nav class="mx-auto md:px-10">
+            <div class="navbar justify-between relative">
                 <div class="">
                   <div class="flex justify-center items-center rounded-full bg-green-primary text-black w-8 h-8"><i class="fa-solid fa-arrow-right text-xl -rotate-45"></i> </div> 
                   <a class="btn btn-ghost text-black font-extrabold text-xl">Rinterio</a>
@@ -60,7 +60,7 @@
                       <a class="btn bg-green-primary text-black font-bold rounded-3xl">Book Consult <i class="fa-solid fa-arrow-right  -rotate-45 rounded-full bg-black text-white w-5 h-5 flex justify-center items-center"></i> </a>
                     </div> 
                 </div>
-                <div class="dropdown">
+                <div class="dropdown absolute left-[24em]">
                     <div tabindex="0" role="button" class="btn btn-ghost md:hidden">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -151,7 +151,7 @@
         </div>
         <!-- about us ends -->
         <!-- counter part starts -->
-        <div class="w-10/12 mx-auto bg-white  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 justify-center items-center py-6 mb-5 rounded-3xl">
+        <div class="w-10/12 mx-auto bg-white  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 justify-center items-center py-6 mb-10 rounded-3xl">
             <div class="flex flex-col gap-2 justify-center items-center text-center">
                 <div class="text-xl">
                     <i class="fa-solid fa-message"></i>
@@ -191,10 +191,39 @@
         </div>
         <!-- counter part ends -->
         <!-- our work process starts -->
-        <div class="w-10/12 mx-auto flex flex-col gap-5">
+        <div class="w-10/12 mx-auto flex flex-col gap-5 py-5">
             <!-- text section -->
-            <div>
-                <a class="btn bg-green-primary text-black font-bold text-xl rounded-3xl">View Details <i class="fa-solid fa-arrow-right  -rotate-45 rounded-full bg-[#ABEF5F] text-black w-5 h-5 flex justify-center items-center"></i> </a>
+            <div class="text-center space-y-6">
+                <a class="btn bg-white text-black font-bold text-xl rounded-3xl"> <i class="fa-solid fa-arrow-right   rounded-full bg-transparent text-black w-5 h-5 flex justify-center items-center"></i> How we works</a>
+                <h1 class="text-black font-extrabold text-2xl md:text-3xl lg:text-4xl">Our Works Process</h1>
+                <p class="font-medium text-[#737373] text-base">The barn house captivates with its blend of rustic charm and modern sophistication, <br>featuring weathered wood, sleek metal accents.</p>
+            </div>
+            <!-- card section -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-center items-center gap-4 px-4">
+                <!-- 1st card  -->
+                <div class="bg-[#E7C1D3] flex flex-col gap-4 text-left p-4 rounded-xl">
+                    <img src="assets/concept.png" alt="" class="w-12 h-12">
+                    <h1 class="text-black font-extrabold text-xl">Concept</h1>
+                    <p class="font-medium text-[#737373] text-base">The barn house captivates with its blend of rustic charm and modern.</p>
+                </div>
+                <!-- 2nd card  -->
+                <div class="bg-[#EFDA6E] flex flex-col gap-4 text-left p-4 rounded-xl">
+                    <img src="assets/flow-chart.png" alt="" class="w-12 h-12">
+                    <h1 class="text-black font-extrabold text-xl">Design Process</h1>
+                    <p class="font-medium text-[#737373] text-base">The barn house captivates with its blend of rustic charm and modern.</p>
+                </div>
+                <!-- 3rd card  -->
+                <div class="bg-[#A4DAC3] flex flex-col gap-4 text-left p-4 rounded-xl">
+                    <img src="assets/vision.png" alt="" class="w-12 h-12">
+                    <h1 class="text-black font-extrabold text-xl">Supervision</h1>
+                    <p class="font-medium text-[#737373] text-base">The barn house captivates with its blend of rustic charm and modern.</p>
+                </div>
+                <!-- 4th card  -->
+                <div class="bg-[#77AAEA] flex flex-col gap-4 text-left p-4 rounded-xl">
+                    <img src="assets/budget-planning.png" alt="" class="w-12 h-12">
+                    <h1 class="text-black font-extrabold text-xl">Budget Planning</h1>
+                    <p class="font-medium text-[#737373] text-base">The barn house captivates with its blend of rustic charm and modern.</p>
+                </div>
             </div>
         </div>
         <!-- our work process ends -->
